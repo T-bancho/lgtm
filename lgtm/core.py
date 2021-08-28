@@ -9,6 +9,6 @@ def cli(keyword, message):
     lgtm(keyword, message)
     click.echo('lgtm') # 動作確認用
 
-def lgtm():
+def lgtm(keyword, message):
     # ここにロジックを追加していく
     pass
